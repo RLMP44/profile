@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>God Save Gary</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+  <script>
+    var playSound = function (soundFile) {
+      document.querySelector("#sound").innerHTML = "<embed src=\"sounds/" + soundFile + "\" hidden=\"true\" autostart=\"true\" />";
+    }
+ </script>
+</head>
+<body>
+  <div id="sound"></div>
+
+  <div class="container">
+
+    <div class="card">
+      <h1>Gary</h1>
+      <img class="img-round" src="images/duck3.jpg" alt="Top view of a duck in the water with its butt and feet up in the air">
+      <h2>Professional Duck</h2>
+    </div>
+
+    <div class="card">
+      <h2>Gary likes hugs. He gives them out for free.</h2>
+      <img class="img-small" src="images/duck.jpg" alt="Duck with a sign saying 'Free Hugs'">
+      <p></p>
+      <a class="btn-blue" href="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/duck-hug-shoal-hollingsworth.jpg" target="_blank">Receive Hug</a>
+    </div>
+
+    <div class="card">
+      <h2>Gary never procrastinates. So neither should you.</h2>
+      <img class="img-small" src="images/duck2.jpg"  alt="Up-close duck looking intently at the camera">
+      <p></p>
+      <button class="btn-blue" onclick="playSound('duck-quacking-scolding.mp3')">Receive Fierce Honking</button>
+    </div>
+
+    <div class="card">
+      <h2>Gary stays motivated by giving himself a pep talk every morning.</h2>
+      <img class="img-small" src="images/duck5.jpg">
+      <p></p>
+      <button class="btn-blue" onclick="playSound('duck_quack.mp3')">Get a Pep Talk</button>
+    </div>
+
+    <div class="card">
+      <h3>Find Gary on HonkBook and Quackagram!</h3>
+      <ul class="list-horizontal">
+        <li><a href="https://www.ducks.org/hunting/waterfowl-id"><i class="fa-solid fa-book-open fa-bounce"></i></a></li>
+        <li><a href="https://www.gettyimages.co.jp/%E5%86%99%E7%9C%9F/duck-and-ducklings"><i class="fa-brands fa-earlybirds fa-bounce"></i></a></li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      <h2>💕Long Live Gary</h2>
+    </div>
+
+  </div>
+</body>
+</html>
